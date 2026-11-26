@@ -33,6 +33,13 @@
   gz_type_name: "gz.msgs.Image"
   direction: GZ_TO_ROS
 
+  # LineCamera
+- ros_topic_name: "/line_camera/image_raw"
+  gz_topic_name: "/line_camera/image_raw"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
 # Truck velocity
 - ros_topic_name: "/truck/cmd_vel"
   gz_topic_name: "/model/truck_npc/cmd_vel"  
